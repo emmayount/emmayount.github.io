@@ -211,7 +211,7 @@ body {font-family: "Lato", sans-serif}
     <img src="paintedbox_2.jpg" style="width:70%; text-align: left!important">
     </div>
 
-        <p> Overall this week went a LOT easier than coding week. I am pumped to create some new projects. Here is the link to my Ubox design file <a href="https://drive.google.com/drive/folders/1_cRJJ6bcQdHXHa7KieOtQuczS-mw4I2g?usp=sharing">link here!</a> </p>
+        <p> Overall this week went a LOT easier than coding week. I am pumped to create some new projects! </p>
         <p></p>
         <p></p>
         <p></p>
@@ -269,5 +269,3 @@ function w3_close() {
 
 </body>
 </html>
-
-
