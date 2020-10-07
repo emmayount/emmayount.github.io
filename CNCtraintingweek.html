@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+    h1, h2 {font-family: "Lato" , sans-serif}
+    .w3-card {box-shadow: none}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html"class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="About.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Weeks <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="project.html" class="w3-bar-item w3-button">Project Managment
+        </a>
+        <a href="Lazerprinting.html" class="w3-bar-item w3-button">Laser Cutting</a>
+        <a href="3D%20printer%20week.html" class="w3-bar-item w3-button">3D printing</a>
+     <a href="3D%20%20planter%20and%20watering%20can.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">4. 3D planter and Watering can</a>
+</div>
+
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+    <!-- Sidebar
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Table of Contents</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+</nav>
+-->
+<!-- Overlay effect when opening sidebar on small screens
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div> -->
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#About.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+    <a href="ProjectManagement.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">1. Project Management</a>
+    <a href="ComputerAidedDesign.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">2. Computer Aided Design</a>
+    <a href="AdditiveManufacturing.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3. Additive Manufacturing</a>
+     <a href="3D%20%20planter%20and%20watering%20can.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">4. 3D planter and Watering can</a>
+</div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="max-width: 66em; margin:auto">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">3D Printing a Flower Pot</h1>
+      <p>Well so I thought I made this flower pot correctly… but its a bit small and thick, sorry Madison!  </p>
+    </div>
+    <div class="w3-third w3-container">
+
+    </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal">Student Tested and Approved </h2>
+      <p>So I had the great fortune to be a test student for this assignment. Keven talked me though the while process of making the pot and yes, this took under 5 minutes
+</p>
+    </div>
+       <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="leaningshelladder.png" style="width:67%; text-align: left!important">
+  </div> <p>Heres a photo of me making the inverted curved texture</p>
+    </div>
+      <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="cnctrainging1.jpg">
+  </div>
+       <p>And voila, now I just had to import into the prusa slicer
+ </p>
+         <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="cnctraining2.jpg" style="width:67%; text-align: left!important">
+  </div>
+      <p>Look how cute! </p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="cnctraining2">
+
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="cnctraining3.jpg" style="width:30%; text-align: left!important">
+  </div>
+       <p>Look how cute!
+ </p>
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="cnctraining4.jpg" style="width:30%; text-align: left!important">
+       </div>
+     <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <p></p>
+  </div> </div>
+      <p> Here I am adjusting the settings to get ready to print
+ </p>
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="cnctraining5.jpg">
+  </div> </div>
+      <p>Using some nice yellow filament
+</p>
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="cnctraining6.jpg" style="width:40%; text-align: left!important">
+  </div> </div>
+      <p>Wow, this time I had NO issues with printing. This was such a reif compared to last weeks printing attempts
+  </p>
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="cncfullphoto.JPG" style="width:40%; text-align: left!important">
+  </div>
+      <p>But just to be cautious I stayed in the makers space for like two hours so make sure it would print alright </p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+  </div>
+      <p>Which also ment I got to see this little pot grow up!
+
+ </p>
+
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src= "dustcollector.JPG" style="width:70%; text-align: left!important">
+    </div>
+    <p> Its finished whoop whoop
+</p> <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="onbuttoncnc.jpg" style="width:70%; text-align: left!important">
+    </div>
+    <p>
+</p>  <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="remotecontrolcnc.jpg" style="width:70%; text-align: left!important">
+    </div>
+      <h2 class="w3-text-teal"> </h2>
+    <p> Nexttttt I started creating the watering can
+</p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="screwdrawer.jpg" style="width:30%; text-align: left!important">
+    </div>
+
+    <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <p>Creating the hollowed out inside of my can
+ </p>
+
+      <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="crewsizes1.jpg" style="width:70%; text-align: left!important">
+    </div>
+         <p></p>
+
+<div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <p> Makinging the spout
+  </p>
+      <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="uncrewingbit.JPG" style="width:70%; text-align: left!important">
+    </div>
+
+      <p>Creating the spicket with the circle tool. This was a bit tedious
+
+</p>
+    </div>
+      <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="downcut.jpg" style="width:70%; text-align: left!important">
+    </div>
+    <p> But look how fabulous it looks up close!
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="tapeandcrewscnc.jpg" style="width:70%; text-align: left!important">
+    </div>
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="touch-off%20sensor.JPG">
+    </div>
+    <p>And oh yeah I went the extra mile and made a lovely handel
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="startingtocut.jpg">
+    </div>
+        <p> Voila. Yup I think I should expand my business to creating custom 3D printed watering cans </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="cuttingpasshalfwaydone.jpg">
+    </div>   </div>
+    <p>And oh yeah I went the extra mile and made a lovely handel
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="finishedcnccut.jpg">
+    </div>
+        <p> Voila. Yup I think I should expand my business to creating custom 3D printed watering cans </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="designsketchescnc1.jpg">
+    </div>
+   </div>
+    <p>And oh yeah I went the extra mile and made a lovely handel
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="designsketch2cnc.jpg">
+    </div>
+        <p> Voila. Yup I think I should expand my business to creating custom 3D printed watering cans </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="mathforshelf.png">
+    </div>
+     <p> Voila. Yup I think I should expand my business to creating custom 3D printed watering cans </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="anglemessurmentscnc.png">
+    </div>
+   </div>
+    <p>And oh yeah I went the extra mile and made a lovely handel
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="incutdepthsockets.png">
+    </div>
+        <p> Voila. Yup I think I should expand my business to creating custom 3D printed watering cans </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="shelfsketch.png">
+    </div>
+        <p> Voila. Yup I think I should expand my business to creating custom 3D printed watering cans </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="extramaterials.png">
+    </div>
+        <p>  Here is the link to my design files <a href="https://drive.google.com/drive/folders/1_cRJJ6bcQdHXHa7KieOtQuczS-mw4I2g?usp=sharing">click here!</a> </p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    </div>
+  <!-- Pagination
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+-->
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
