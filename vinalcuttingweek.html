@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+    h1, h2 {font-family: "Lato" , sans-serif}
+    .w3-card {box-shadow: none}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html"class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="About.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Weeks <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="project.html" class="w3-bar-item w3-button">Project Managment
+        </a>
+        <a href="Lazerprinting.html" class="w3-bar-item w3-button">Laser Cutting</a>
+        <a href="3D%20printer%20week.html" class="w3-bar-item w3-button">3D printing</a>
+     <a href="3D%20%20planter%20and%20watering%20can.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">4. 3D planter and Watering can</a>
+          <a href="CNCtraintingweek.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">5. Subtractive Manufacturing</a>
+          <a href="mini_table_box_design.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">6. Mini Slicer</a>
+          <a href="Larege_cardboardtabel_desgn.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">7. Big Slicer</a>
+</div>
+
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+    <!-- Sidebar
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Table of Contents</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+</nav>
+-->
+<!-- Overlay effect when opening sidebar on small screens
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div> -->
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#About.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+    <a href="ProjectManagement.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">1. Project Management</a>
+    <a href="ComputerAidedDesign.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">2. Computer Aided Design</a>
+    <a href="AdditiveManufacturing.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3. Additive Manufacturing</a>
+     <a href="3D%20%20planter%20and%20watering%20can.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">4. 3D planter and Watering can</a>
+</div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="max-width: 66em; margin:auto">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Week 8 | Large Slicer </h1>
+      <p> 3D cardboard object using slicer fusion 360
+  </p>
+    </div>
+    <div class="w3-third w3-container">
+
+    </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal">Finished Design</h2>
+      <p>This week we created the enlarged design version working off of our design from slicer mini week
+
+</p>
+    </div>
+       <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="meintheshirt.jpg" style="width:67%; text-align: left!important">
+  </div> <p>I started creating my 3 dimentinal design in fusion 360. I wanted the bases to be a bit larger than the top like so.
+</p>
+    </div>
+      <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="sukiinstagrampage.jpg">
+  </div>
+       <p>Then I exported the stl file and downloaded slicer for fusion 360.
+ </p>
+         <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="originalsukiphoto.jpg" style="width:67%; text-align: left!important">
+  </div>
+      <p>Once it was imported into slicer, I was able to change my canvas size dimensions so that all my parts would fit on the same page, this would avoid having to copy and past everything once it was into illustrator. Thank you Tuna and Whitney for this time saving tip!
+ </p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="originalphoto.png">
+
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="photoshop1suki.png" style="width:30%; text-align: left!important">
+  </div>
+       <p> Here is my design after converting the construction technique to interlocked slices
+ </p>
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="creatingcirlceindesgn.png" style="width:30%; text-align: left!important">
+       </div>
+      <p>I also re-measured the width of my cardboard just to make extra certain my slices would fit snug in my design. this time I made the width a bit larger becase my mini box slices was a little too snug. </p>
+     <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="uploadingtovcarve.jpg">
+  </div> </div>
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="releasingnobtoadjustsspinners.jpg" style="width:40%; text-align: left!important">
+  </div> </div>
+      <p>Here is my design after playing with the form, I found this to be the best positioning. I also moved in the outer wall slices in a bit more so they would stay intact better.
+  </p>
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="aducstingspeedandforceofvinalcutter.jpg" style="width:40%; text-align: left!important">
+  </div>
+      <p>My finished slice design sheets! I imported these 4 files into illustrator.
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+  </div>
+
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src= "loadingvinal.jpg" style="width:70%; text-align: left!important">
+    </div>
+ <p>Whoops, my canvas size was not the correct size and orientation
+</p> <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="vcarveprintsettings.jpg" style="width:70%; text-align: left!important">
+    </div>
+    <p>
+</p>  <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="vinalcuttinginaction.jpg" style="width:70%; text-align: left!important">
+    </div>
+      <h2 class="w3-text-teal"> </h2>
+    <p> Next I edited the stroke weight to .01mm and upressed print
+
+
+</p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="vinalcut.jpg" style="width:30%; text-align: left!important">
+    </div>
+
+    <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <p>I imported it into the eppelog app and changed my vector settings
+ </p>
+
+      <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="letteringdidnotwork.jpg" style="width:70%; text-align: left!important">
+    </div>
+         <p>Then I realized I was on the wrong layer so I had to go back and reselect the correct layer and do this process over.</p>
+
+<div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <p> This is the vector settings for the text I needed for each slice
+
+  </p>
+      <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="prepressingtshirt.jpg" style="width:70%; text-align: left!important">
+    </div>
+
+      <p>Then I started laser cutting. I repeated this process for each large cardboard sheet.
+
+</p>
+    </div>
+      <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="aligninglogoontshirt.jpg" style="width:70%; text-align: left!important">
+    </div>
+    <p> Getting a little flammy
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="flippingdownthepress.jpg" style="width:70%; text-align: left!important">
+    </div>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="sukilogo.jpg">
+    </div>
+        <p> Here are all the slices removed </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="vinalcuttingp2.jpg">
+    </div>   </div>
+    <p>the assembling wasnt too difficult this time becasue I made the slits wider, but I didnt need any hot glue becasue my desgn was still snug enough to hold up on its own.
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="finishedshirtonfloor.jpg">
+    </div>
+        <p> Here is what my test cut looked like completely cut </p>
+           </div>
+        <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal">All put together!</h2>
+        </div>
+             <p> Here are all the slices removed </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="finishedshirt!.jpg">
+    </div>   </div>
+    <p>the assembling wasnt too difficult this time becasue I made the slits wider, but I didnt need any hot glue becasue my desgn was still snug enough to hold up on its own.
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="finishedshirt!.jpg">
+    </div>
+    <p>This wasn't a completely clean cut, the middle slices I ended up needing to use an exacto knife to wiggle out
+
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="Allmybigsheets.jpg">
+    </div>
+        <p> Here are all the slices removed </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="butheretheyareallout.jpg">
+    </div>   </div>
+    <p>the assembling wasnt too difficult this time becasue I made the slits wider, but I didnt need any hot glue becasue my desgn was still snug enough to hold up on its own.
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="assembolingbogbox.jpg">
+    </div>
+        <p> Here is what my test cut looked like completely cut </p>
+           </div>
+        <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal">All put together!</h2>
+        </div>
+
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="arealviewofbigbox.jpg">
+    </div>
+   </div>
+    <p>
+I am not sure where I will be storing this in my room / if my roomate will approve.... for now it will live in the makers space!
+
+
+ </p>
+    <!-- Images -->
+    <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="4sheetsofbigdesgn.png">
+    </div>
+        <p>
+    </div>
+        <p>  Here is the link to my design files <a href="https://drive.google.com/drive/folders/1_cRJJ6bcQdHXHa7KieOtQuczS-mw4I2g?usp=sharing">click here</a> </p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    </div>
+  <!-- Pagination
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+-->
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
