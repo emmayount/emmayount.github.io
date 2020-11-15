@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+    h1, h2 {font-family: "Lato" , sans-serif}
+    .w3-card {box-shadow: none}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html"class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="About.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Weeks <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="project.html" class="w3-bar-item w3-button">Project Managment
+        </a>
+        <a href="Lazerprinting.html" class="w3-bar-item w3-button">Laser Cutting</a>
+        <a href="3D%20printer%20week.html" class="w3-bar-item w3-button">3D printing</a>
+     <a href="3D%20%20planter%20and%20watering%20can.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">4. 3D planter and Watering can</a>
+          <a href="CNCtraintingweek.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">5. Subtractive Manufacturing</a>
+          <a href="mini_table_box_design.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">6. Mini Slicer</a>
+          <a href="Larege_cardboardtabel_desgn.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">7. Big Slicer</a>
+          <a href="vinalcuttingweek.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">8. Vinyl Cutting</a>
+          <a href="electronicsweek.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">9. Electronics</a>
+</div>
+
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+    <!-- Sidebar
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Table of Contents</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-orange" href="#">Link</a>
+</nav>
+-->
+<!-- Overlay effect when opening sidebar on small screens
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div> -->
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#About.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+    <a href="ProjectManagement.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">1. Project Management</a>
+    <a href="ComputerAidedDesign.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">2. Computer Aided Design</a>
+    <a href="AdditiveManufacturing.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3. Additive Manufacturing</a>
+     <a href="3D%20%20planter%20and%20watering%20can.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">4. 3D planter and Watering can</a>
+</div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="max-width: 66em; margin:auto">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Week 10 | Electronics part one </h1>
+      <p> Designing and printing graphics on a sweatshirt using the vinyl cutter
+  </p>
+    </div>
+    <div class="w3-third w3-container">
+
+    </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal">Electronics Week 1 </h2>
+      <p>Not a fan.
+I think I spent the most amount of time on this assignment more frustrated and confused than any other week. Finally Thanks to Kevin I was able to complete this problem set.
+Below are all my answers 1-16 with my process for figuring out these problems. I will never forget that I stands for current, V stands for voltage, R is resistance. And the golden formula in electronic circuit rations is V equals I times R.
+</p>
+    </div>
+       <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="note%20page%201.png"
+  </p>
+      </div>
+      <p>
+    </div>
+      <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="page%202-3.png">
+  </div>
+
+         <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="4%20&5%20.png" style="width:67%; text-align: left!important">
+  </div>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="6&7.png">
+
+      <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src= "8&9.png" style="width:70%; text-align: left!important">
+    </div>
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="10&11.png">
+       </div>
+
+     <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <p></p>
+      <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="12&13.png">
+  </div> </div>
+      <p></p>
+    </div>   </div>
+
+    <p>here is a little compilation of photos that show the amount of times I went in for help, and more work not shown on my paper.
+
+ </p>     <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="kevin_helpingp2.jpeg" style="width:67%; text-align: left!important">
+  </div>
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+        <p>
+ </p>     <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="kenvinhelpingp3.png" style="width:67%; text-align: left!important">
+  </div>
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+        <p> </div>   </div>
+    <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="kevin_helpingp1.jpeg" style="width:67%; text-align: left!important">
+  </div>
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+        <p> </div>   </div>
+    <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="notesonwhiteboard1.jpeg" style="width:67%; text-align: left!important">
+  </div>
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+        <p> </div>   </div>
+   <!-- Images -->
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+    <img src="notesonboard2.jpeg" style="width:67%; text-align: left!important">
+  </div>
+  <div class="mySlides w3-display-container w3-center" style = "text-align: left!important">
+
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    </div>
+  <!-- Pagination
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+-->
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
